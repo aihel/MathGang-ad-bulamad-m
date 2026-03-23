@@ -1,8 +1,0 @@
-body { margin:0; overflow:hidden; font-family:Arial; background:#000; }
-#menu { position:absolute; width:100%; height:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; background:linear-gradient(#111,#222); color:white; }
-button { padding:15px 30px; margin:10px; font-size:18px; border:none; border-radius:10px; background:#00c3ff; color:#fff; cursor:pointer; transition:0.3s; }
-button:hover { transform:scale(1.1); }
-#ui { position:absolute; top:10px; left:50%; transform:translateX(-50%); color:white; font-size:20px; }
-#questionBox { position:absolute; bottom:50px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.8); padding:20px; border-radius:15px; display:none; color:white; }
-#joystick { position:absolute; right:50px; bottom:120px; width:120px; height:120px; border-radius:50%; background:rgba(255,255,255,0.2); display:none; }
-#stick { width:50px; height:50px; background:#00c3ff; border-radius:50%; position:absolute; left:35px; top:35px; }
